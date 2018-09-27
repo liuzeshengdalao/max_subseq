@@ -9,7 +9,6 @@ public class seq_max {
 		int arr2_leng = str2.length();
 		int [][]dp = new int[arr1_leng+1][arr2_leng+1];
 		StringBuffer res = new StringBuffer();
-		//≥ı ºªØ
 		for(int i=1; i<arr1_leng+1; ++i){
 			for(int j=1; j<arr2_leng+1; ++j){
 				if(str1.charAt(i-1)==str2.charAt(j-1)){
